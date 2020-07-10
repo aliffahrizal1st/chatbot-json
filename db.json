@@ -22,47 +22,6 @@
         "buttons": [
           {
             "label": "Informasi Paket",
-            "path": "5f056f9220f8375360e5331c",
-            "type": "path"            
-          },
-          {
-            "label": "Tracking Paket",
-            "path": "5f056f9c20f8375360e5331e",
-            "type": "path"
-          },
-          {
-            "label": "Cek Biaya Antar",
-            "path": "5f056faa20f8375360e5331f",
-            "type": "path"
-          },
-          {
-            "label": "Informasi Layanan",
-            "path": "5f056fbe20f8375360e53323",
-            "type": "path"
-          },
-          {
-            "label": "Kritik & Saran",
-            "path": "5f056fc920f8375360e53324",
-            "type": "path"
-          },
-          {
-            "label": "Komplain",
-            "url": "5f056fbe20f8375360e53323",
-            "type": "path"
-          }
-        ],
-        "type": "button"
-      }
-    ]
-  },
-  "infolayanan_menu": {
-    "chats": [
-      {
-        "text": "Hi {{nama}}, salam kenal! \nAda yang bisa dibantu?\nSilahkan pilih menu di bawah ini ya\nDan kalau mau kembali ke menu ini kamu tinggal kirim aja ‘Kembali ke menu’",
-        "type": "button",
-        "buttons": [
-          {
-            "label": "Informasi Paket",
             "type": "path",
             "path": "5f056f9220f8375360e5331c"
           },
@@ -91,8 +50,35 @@
             "type": "path",
             "url": "5f056fbe20f8375360e53323"
           }
-        ]
+        ],
+        "type": "button"
       }
     ]
+  },
+  "draft_menu": {
+    "chats": [
+      {
+          "text" : "Hi {{nama}}, salam kenal! \nAda yang bisa dibantu?\nSilahkan pilih menu di bawah ini ya\nDan kalau mau kembali ke menu ini kamu tinggal kirim aja ‘Kembali ke menu’",
+          "buttons" : [
+              {
+                  "label" : "Informasi Paket",
+                  "type": "path",
+                  "path" : "5f056f9220f8375360e5331c"
+              },
+              {
+                  "label" : "Tracking Paket",
+                  "type": "path",
+                  "path" : "5f056f9c20f8375360e5331e"
+              },
+              {
+                  "label" : "Cek Biaya Antar",
+                  "type": "path",
+                  "path" : "5f056faa20f8375360e5331f"
+              }
+          ],
+          "type" : "button"
+      }
+  ]
   }
+
 }
