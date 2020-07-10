@@ -51,7 +51,7 @@
             "type": "path"
           }
         ],
-        "type": "buttons"
+        "type": "button"
       }
     ]
   },
