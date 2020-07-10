@@ -22,33 +22,33 @@
         "buttons": [
           {
             "label": "Informasi Paket",
-            "type": "path",
-            "path": "5f056f9220f8375360e5331c"
+            "path": "5f056f9220f8375360e5331c",
+            "type": "path"            
           },
           {
             "label": "Tracking Paket",
-            "type": "path",
-            "path": "5f056f9c20f8375360e5331e"
+            "path": "5f056f9c20f8375360e5331e",
+            "type": "path"
           },
           {
             "label": "Cek Biaya Antar",
-            "type": "path",
-            "path": "5f056faa20f8375360e5331f"
+            "path": "5f056faa20f8375360e5331f",
+            "type": "path"
           },
           {
             "label": "Informasi Layanan",
-            "type": "path",
-            "path": "5f056fbe20f8375360e53323"
+            "path": "5f056fbe20f8375360e53323",
+            "type": "path"
           },
           {
             "label": "Kritik & Saran",
-            "type": "path",
-            "path": "5f056fc920f8375360e53324"
+            "path": "5f056fc920f8375360e53324",
+            "type": "path"
           },
           {
             "label": "Komplain",
-            "type": "path",
-            "url": "5f056fbe20f8375360e53323"
+            "url": "5f056fbe20f8375360e53323",
+            "type": "path"
           }
         ],
         "type": "button"
