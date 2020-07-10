@@ -19,6 +19,9 @@
     "chats": [
       {
         "text": "Hi {{nama}}, salam kenal! \nAda yang bisa dibantu?\nSilahkan pilih menu di bawah ini ya\nDan kalau mau kembali ke menu ini kamu tinggal kirim aja ‘Kembali ke menu’",
+        "type": "text"
+      },
+      {
         "buttons": [
           {
             "label": "Informasi Paket",
@@ -79,33 +82,6 @@
           "type" : "button"
       }
   ]
-  },
-  "coba": {
-    "chats": [
-      {
-    "title": "Acer Nitro 5",
-    "text": "Rp 8.000.000",
-    "image_url": "https://www.amd-id.com/wp-content/uploads/2020/02/Multimedia-ACER-Nitro-5.png",
-    "buttons": [
-      {
-        "label": "Beli",
-        "type": "path",
-        "path": "5f06d6c720f83730309ddf1d",
-        "variable": {
-          "nama_produk": "Acer Nitro 5",
-          "harga_produk": "8.000.000"
-        }
-      },
-      {
-        "label": "Kembali",
-        "type": "path",
-        "path": "5f05303220f8373f864b31f0"
-      }
-    ],
-    "type": "button"
-      }
-    ]
-
   }
 
 }
