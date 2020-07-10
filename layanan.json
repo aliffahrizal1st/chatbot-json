@@ -1,0 +1,25 @@
+{
+  "chats": [
+    {
+      "text": "Selamat datang di menu Informasi layanan\nDi menu ini kamu bisa cari informasi layanan apa saja yang kami punya",
+      "type": "button",
+      "buttons": [
+        {
+          "label": "COD",
+          "type": "path",
+          "path": "5f067fa820f8375360e53cde"
+        },
+        {
+          "label": "Regular",
+          "type": "path",
+          "path": "5f067fd120f8375360e53ce1"
+        },
+        {
+          "label": "Yes",
+          "type": "path",
+          "path": "5f067fe120f8375360e53ce2"
+        }
+      ]
+    }
+  ]
+}
