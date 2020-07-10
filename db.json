@@ -7,18 +7,10 @@
       }
     ]
   },
-  "greeting_awal2": {
-    "chats": [
-      {
-        "text": "Hi {{nama}}, salam kenal! \nAda yang bisa dibantu?\nSilahkan pilih menu di bawah ini ya\nDan kalau mau kembali ke menu ini kamu tinggal kirim aja ‘Kembali ke menu’",
-        "type": "text"
-      }
-    ]
-  },
   "greeting_menu": {
     "chats": [
       {
-        "text": "Hi {{nama}}, salam kenal! \nAda yang bisa dibantu?\nSilahkan pilih menu di bawah ini ya\nDan kalau mau kembali ke menu ini kamu tinggal kirim aja ‘Kembali ke menu’",
+        "text": "Hi {{nama}}, salam kenal! \nSilahkan pilih menu di bawah ini ya\nDan kalau mau kembali ke menu ini kamu tinggal kirim aja ‘Kembali ke menu’",
         "type": "text"
       },
       {
