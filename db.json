@@ -87,6 +87,82 @@
         "type": "button"
       }
     ]
+  },
+  "biaya_kirim": {
+    "array_biaya_kirim":[
+      {
+        "Kode Pos Pengirim": "11111",
+        "Kode Pos Penerima": "22222",
+        "Berat Paket": "1",
+        "Biaya Kirim": "3000"
+      },
+      {
+        "Kode Pos Pengirim": "11111",
+        "Kode Pos Penerima": "22222",
+        "Berat Paket": "3",
+        "Biaya Kirim": "5000"
+      },
+      {
+        "Kode Pos Pengirim": "22222",
+        "Kode Pos Penerima": "11111",
+        "Berat Paket": "1",
+        "Biaya Kirim": "4000"
+      },
+      {
+        "Kode Pos Pengirim": "22222",
+        "Kode Pos Penerima": "11111",
+        "Berat Paket": "3",
+        "Biaya Kirim": "8000"
+      },
+      {
+        "Kode Pos Pengirim": "11111",
+        "Kode Pos Penerima": "33333",
+        "Berat Paket": "1",
+        "Biaya Kirim": "8000"
+      },
+      {
+        "Kode Pos Pengirim": "11111",
+        "Kode Pos Penerima": "33333",
+        "Berat Paket": "3",
+        "Biaya Kirim": "10000"
+      },
+      {
+        "Kode Pos Pengirim": "22222",
+        "Kode Pos Penerima": "33333",
+        "Berat Paket": "1",
+        "Biaya Kirim": "3500"
+      },
+      {
+        "Kode Pos Pengirim": "22222",
+        "Kode Pos Penerima": "33333",
+        "Berat Paket": "3",
+        "Biaya Kirim": "6000"
+      },
+      {
+        "Kode Pos Pengirim": "33333",
+        "Kode Pos Penerima": "11111",
+        "Berat Paket": "1",
+        "Biaya Kirim": "7000"
+      },
+      {
+        "Kode Pos Pengirim": "33333",
+        "Kode Pos Penerima": "11111",
+        "Berat Paket": "3",
+        "Biaya Kirim": "13000"
+      },
+      {
+        "Kode Pos Pengirim": "33333",
+        "Kode Pos Penerima": "22222",
+        "Berat Paket": "1",
+        "Biaya Kirim": "5000"
+      },
+      {
+        "Kode Pos Pengirim": "33333",
+        "Kode Pos Penerima": "22222",
+        "Berat Paket": "3",
+        "Biaya Kirim": "4500"
+      }
+    ]
   }
 
 }
