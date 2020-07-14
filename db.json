@@ -1,29 +1,13 @@
 {
-  "greeting_awal1": {
-    "chats": [
-      {
-        "text": "Halo!!! Boleh kenalan? \nNama aku zuko bot logistik. \nMottoku 'Apapun Barangnya Pasti Diantar!'",
-        "type": "text"
-      }
-    ]
-  },
   "greeting_menu": {
     "chats": [
       {
         "text": "Hi {{nama}}, salam kenal! \nSilahkan pilih menu di bawah ini ya\nDan kalau mau kembali ke menu ini kamu tinggal kirim aja ‘Kembali ke menu’",
-        "type": "text"
-      },
-      {
         "buttons": [
           {
-            "label": "Informasi Paket",
+            "label": "Informasi Paket Kamu",
             "type": "path",
-            "path": "5f056f9220f8375360e5331c"
-          },
-          {
-            "label": "Tracking Paket",
-            "type": "path",
-            "path": "5f056f9c20f8375360e5331e"
+            "path" : "5f0cef2920f83730309e0779"
           },
           {
             "label": "Cek Biaya Antar",
@@ -50,13 +34,13 @@
       }
     ]
   },
-  "draft_menu": {
+  "informasi_paket_menu": {
     "chats": [
       {
-          "text" : "Hi {{nama}}, salam kenal! \nAda yang bisa dibantu?\nSilahkan pilih menu di bawah ini ya\nDan kalau mau kembali ke menu ini kamu tinggal kirim aja ‘Kembali ke menu’",
+          "text" : "Silahkan dipilih menu informasi apa yang ingin ditampilkan",
           "buttons" : [
               {
-                  "label" : "Informasi Paket",
+                  "label" : "Detail nformasi Paket",
                   "type": "path",
                   "path" : "5f056f9220f8375360e5331c"
               },
@@ -64,41 +48,45 @@
                   "label" : "Tracking Paket",
                   "type": "path",
                   "path" : "5f056f9c20f8375360e5331e"
-              },
-              {
-                  "label" : "Cek Biaya Antar",
-                  "type": "path",
-                  "path" : "5f056faa20f8375360e5331f"
               }
           ],
           "type" : "button"
       }
   ]
   },
-  "coba": {
+  "return_menu": {
     "chats": [
       {
-          "text" : "Hi {{nama}}, salam kenal! \nAda yang bisa dibantu?\nSilahkan pilih menu di bawah ini ya\nDan kalau mau kembali ke menu ini kamu tinggal kirim aja ‘Kembali ke menu’",
-          "buttons" : [
-              {
-                  "label" : "Informasi Paket",
-                  "type": "path",
-                  "path" : "5f056f9220f8375360e5331c"
-              },
-              {
-                  "label" : "Google",
-                  "type": "text",
-                  "text" : "ini google"
-              },
-              {
-                  "label" : "gluglu",
-                  "type": "url",
-                  "url" : "google.com"
-              }
-          ],
-          "type" : "button"
+        "buttons": [
+          {
+            "label": "Informasi Paket Kamu",
+            "type": "path",
+            "path" : "5f0cef2920f83730309e0779"
+          },
+          {
+            "label": "Cek Biaya Antar",
+            "type": "path",
+            "path": "5f056faa20f8375360e5331f"
+          },
+          {
+            "label": "Informasi Layanan",
+            "type": "path",
+            "path": "5f056fbe20f8375360e53323"
+          },
+          {
+            "label": "Kritik & Saran",
+            "type": "path",
+            "path": "5f056fc920f8375360e53324"
+          },
+          {
+            "label": "Komplain",
+            "type": "path",
+            "url": "5f056fbe20f8375360e53323"
+          }
+        ],
+        "type": "button"
       }
-  ]
+    ]
   }
 
 }
